@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gilang.picture">
+    package="com.example.gilang.tugaskuis">
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".activity2"
+            android:label="@string/title_activity_activity2" />
+        <activity
+            android:name=".B1"
+            android:label="@string/title_activity_b1" />
+        <activity
+            android:name=".B3"
+            android:label="@string/title_activity_b3" />
+        <activity
+            android:name=".B2"
+            android:label="@string/title_activity_b2"></activity>
     </application>
 
 </manifest>

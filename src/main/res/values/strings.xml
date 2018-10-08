@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">picture</string>
+    <string name="app_name">tugaskuis</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_activity2">activity2</string>
+    <string name="title_activity_b1">B1</string>
+    <string name="title_activity_b3">B3</string>
+    <string name="title_activity_b2">B2</string>
 </resources>

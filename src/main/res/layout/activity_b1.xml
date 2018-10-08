@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".B1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="374dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/suriah"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="403dp"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text='Kelompok oposisi Suriah yang bertahan di wilayah Idlib, barat laut Suriah, pada Sabtu kemarin mengumumkan bahwa mereka telah mulai menarik senjata berat dari garis depan. Hal ini sesuai dengan kesepakatan antara Turki dan Rusia.  Juru bicara Front Pembebasan Suriah yang berafiliasi dengan tentara Pembebasan Suriah (FSA), Naci Mustafa mengatakan, kelompok oposisi mulai menarik senjata berat mereka sesuai dengan perjanjian Sochi. Dalam perjanjian itu, Rusia dan Turki sepakat untuk menetapkan sebuah zona demiliterisasi.    Meski begitu, Mustafa mengatakan, senjata ringan akan tetap ditempatnya dan mereka akan terus menggali parit sebagai langkah untuk kemungkinan menghadapi serangan oleh rezim Suriah.  "Penarikan senjata berat sedang dilakukan dengan koordinasi pemerintah Turki," katanya seperti dikutip dari Anadolu, Minggu (7/10/2018).  Setelah pertemuan di Sochi bulan lalu antara Presiden Turki Recep Tayyip Erdogan dan koleganya dari Rusia Vladimir Putin, kedua negara sepakat untuk membentuk zona demiliterisasi di Idlib. Idlib adalah benteng oposisi Suriah terakhir '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="78dp"
+        android:layout_height="34dp"
+        android:text="BACK"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="529dp" />
+</android.support.constraint.ConstraintLayout>
